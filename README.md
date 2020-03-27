@@ -1,5 +1,20 @@
 # mealarious
 
+## Checklist
+
+| Tâche                                | État          |
+| ------------------------------------ | ------------  |
+| Description du projet                | ¯\\\_(ツ)\_/¯ |
+| Code SQL de la stucture de données   | **Terminé**   |
+| Jeu de données                       | *À tester*    |
+| Requête SQL sans jointure            | *À tester*    |
+| Requête SQL avec jointure            | *À tester*    |
+| Requêtes de manipulation des données | *À tester*    |
+| Captures d'écran des résultats       | À faire       |
+
+
+
+
 ## Pour se connecter à la base de données mariaDB
 
 Créer un fichier `credentials.php` sur le dossier
