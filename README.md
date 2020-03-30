@@ -6,11 +6,11 @@
 | ------------------------------------ | ----------- |
 | Description du projet                | **Terminé** |
 | Code SQL de la stucture de données   | **Terminé** |
-| Jeu de données                       | *À tester*  |
-| Requête SQL sans jointure            | *À tester*  |
-| Requête SQL avec jointure            | *À tester*  |
-| Requêtes de manipulation des données | *À tester*  |
-| Captures d'écran des résultats       | À faire     |
+| Jeu de données                       | **Terminé** |
+| Requête SQL sans jointure            | **Terminé** |
+| Requête SQL avec jointure            | **Terminé** |
+| Requêtes de manipulation des données | **Terminé** |
+| Captures d'écran des résultats       | **Terminé** |
 
 
 
