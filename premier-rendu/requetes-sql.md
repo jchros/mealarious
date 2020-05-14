@@ -10,7 +10,7 @@ WHERE  `Commentaires`.`Identifiant` != `Réponses`.`Réponse`;
 
 ### Résultat
 
-![liste-commentaires-premier-niveau](/Users/chrosrovajason/Developer/mealarious/premier-rendu/requetes-sql.assets/liste-commentaires-premier-niveau.png)
+![liste-commentaires-premier-niveau](requetes-sql.assets/liste-commentaires-premier-niveau.png)
 
 ## Liste des réactions sur une recette par utilisateur
 
@@ -23,7 +23,7 @@ AND    `Réactions`.`Plat`        = `Plats`.`Identifiant`;
 
 ### Résultat
 
-![before-reactions](/Users/chrosrovajason/Developer/mealarious/premier-rendu/requetes-sql.assets/before-reactions.png)
+![before-reactions](requetes-sql.assets/before-reactions.png)
 
 ## Nombre d'utilisateurs ayant une photo de profil dans la base de données
 
@@ -35,7 +35,7 @@ WHERE  `Photo` IS NOT NULL;
 
 ### Résultat
 
-![list-usrs-with-profile-pic](/Users/chrosrovajason/Developer/mealarious/premier-rendu/requetes-sql.assets/list-usrs-with-profile-pic.png)
+![list-usrs-with-profile-pic](requetes-sql.assets/list-usrs-with-profile-pic.png)
 
 ## Anonymiser un utilisateur
 
@@ -51,11 +51,11 @@ WHERE  `Pseudo` = "dejuilletanovembre";
 
 #### Avant
 
-![before-anonymizing](/Users/chrosrovajason/Developer/mealarious/premier-rendu/requetes-sql.assets/before-anonymizing.png)
+![before-anonymizing](requetes-sql.assets/before-anonymizing.png)
 
 #### Après
 
-![after-reactions](/Users/chrosrovajason/Developer/mealarious/premier-rendu/requetes-sql.assets/after-reactions.png)
+![after-reactions](requetes-sql.assets/after-reactions.png)
 
 ## Remettre à zéro les réactions d'un utilisateur sur une recette
 
@@ -73,8 +73,8 @@ AND         `Utilisateur` = (SELECT `Identifiant`
 
 #### Avant
 
-![before-reactions](/Users/chrosrovajason/Developer/mealarious/premier-rendu/requetes-sql.assets/before-reactions-5603521.png)
+![before-reactions](requetes-sql.assets/before-reactions-5603521.png)
 
 #### Après
 
-![after-reactions](/Users/chrosrovajason/Developer/mealarious/premier-rendu/requetes-sql.assets/after-reactions-5603515.png)
+![after-reactions](requetes-sql.assets/after-reactions-5603515.png)
